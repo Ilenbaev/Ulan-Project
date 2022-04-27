@@ -1,0 +1,135 @@
+.homeimg {
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5)),
+    url(../imges/fone2.jpg) no-repeat center center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 0;
+
+  h1 {
+    font-size: 65px;
+    padding-top: 200px;
+    margin: 0;
+  }
+  h3 {
+    padding-bottom: 200px;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: -20px;
+  }
+
+  @media all and(max-width: 769px) {
+    h1 {
+      font-size: 45px;
+      padding-top: 100px;
+    }
+    h3 {
+      font-size: 16px;
+      padding-bottom: 100px;
+    }
+  }
+}
+
+.home_body {
+  text-align: center;
+  background-color: #efefef;
+}
+.home_body_name {
+  font-weight: 600;
+  font-size: 42px;
+  h2 {
+    margin: 0;
+    padding-top: 30px;
+    color: #6b6969;
+  }
+
+  @media all and(max-width: 426px) {
+    h2 {
+      font-size: 39px;
+    }
+  }
+}
+
+.home_box {
+  max-width: 400px;
+  min-width: 300px;
+  margin: 25px 0;
+}
+@media all and(max-width: 321px) {
+  span {
+    margin-right: 60px;
+  }
+}
+
+.home_body_info {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 60px 0;
+  font-size: 20px;
+
+  span {
+    font-size: 50px;
+    color: #6b6969;
+  }
+
+  @media all and(max-width: 1024px) {
+    .home_box {
+      max-width: 200px;
+      min-width: 50px;
+    }
+  }
+
+  @media all and(max-width: 769px) {
+    flex-wrap: wrap;
+  }
+}
+
+.main {
+  text-align: center;
+  padding: 30px 0;
+  h2 {
+    color: #6b6969;
+    font-size: 40px;
+  }
+}
+
+.main_box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1360px;
+  margin: 0 auto;
+  margin-top: 50px;
+  h2 {
+    font-size: 30px;
+  }
+}
+
+.main1 {
+  width: 110px;
+  height: 110px;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainicon {
+  font-size: 80px;
+}
+
+.main2 {
+  width: 4px;
+  height: 4px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.main_left {
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

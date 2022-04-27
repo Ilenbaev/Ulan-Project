@@ -1,0 +1,145 @@
+{
+  "products": [
+    {
+      "language": "Front-end разработчик",
+      "time": "6 месяцев",
+      "type": "Идет набор",
+      "price": 900,
+      "month": "30 апреля",
+      "place": "3",
+      "description": "Освойте язык программирования JavaScript\nс нуля за 6 месяцев\nи начните карьеру в IT.\nВы научитесь верстать, использовать JavaScript, фреймворки React.js и Vue.js — и начнёте карьеру frontend-разработчика.\nНизкий порог входа в профессию\nЗа счет простоты данного языка, порог входа в профессию JavaScript разработчика считается низким",
+      "img": "https://media.proglib.io/wp-uploads/2017/03/open-position-frontend-developer-dribbble-2-preview_1x.png",
+      "like": [],
+      "rating": 6,
+      "id": 1
+    },
+    {
+      "language": "Back-end разработчик",
+      "time": "6 месяцев",
+      "type": "Идет набор",
+      "price": 700,
+      "month": "3 мая",
+      "place": "7",
+      "description": "Освойте язык программирования Python с нуля\nза 6 месяцев и начните карьеру в IT.\nPython, язык для back-end разработки, относительно прост в изучении для начинающих программистов и востребован на рынке труда.\nНизкий порог входа в профессию\nЗа счет простоты данного языка, порог входа в профессию Python разработчика считается низким",
+      "img": "https://i.ytimg.com/vi/5BSqQTpIMFg/maxresdefault.jpg",
+      "like": [],
+      "rating": 9,
+      "id": 2
+    },
+    {
+      "language": "UX/UI дизайнер",
+      "time": "3 месяца",
+      "type": "Скоро",
+      "price": 300,
+      "month": "1 июля",
+      "place": "13",
+      "description": "Научитесь разрабатывать\nинтерфейсы, решающие задачи бизнеса.\nUX/UI дизайнер, дизайнер продукта — одна из самых востребованных digital-профессий с широкими возможностями для роста и высокой заработной платой..\nНизкий порог входа в профессию\nДля того, чтобы учавствовать в разработке не обязательно быть программистом и уметь писать код.\nИнструменты для работы с дизайном интерфейсов не очень сложные для освоения.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTocgrqJx9ASRSS9PSvddQRi5rtMKtkW2wkgg&usqp=CAU",
+      "like": [],
+      "rating": 6,
+      "id": 3
+    },
+    {
+      "language": "Android разработчик",
+      "time": "6 месяцев",
+      "type": "Скоро",
+      "price": 900,
+      "month": "1 июня",
+      "place": "20",
+      "description": "Освойте Android разработку с нуля за 6 месяцев и начните карьеру в IT.\nВы изучите языки Java и Kotlin, разберетесь в особенностях ОС Android — и начнёте карьеру мобильного разработчика.\nНизкий порог входа в профессию\nЗа счет простоты данной специализации, порог входа в профессию Android разработчика считается низким",
+      "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAS0AAACoCAMAAACCN0gDAAAAflBMVEUAAAAEBASioqLs7Oy3t7f///+VlZWAgIAfHx/R0dFbW1vHx8enp6c9PT1xcXE3Nzfc3Nzz8/NISEiQkJBTU1Pm5ubg4OBDQ0P39/cvLy/AwMCvr6/Q0NBpaWkXFxe8vLx3d3cmJiZiYmIRERGTk5OGhoZNTU2cnJwbGxsqKipOlJQnAAAIZElEQVR4nO2diZKiOhRAE0JEFgGVILK4ttr+/w++bCBqT8+EN4uSe6q6ZB84cxNCCAlCAAAAAAAAAAAAAAAAAAAAfwM8YAfjfcYCHnDl1soaZstSXeHMMFD41mHyh07m5WlSs+15VC3dP3Mq78B2abhDQpC9GdeGrc128BseYJbawmgXfpFpYyyNPKwQs174187tBcEo3D0swT+cw2hP9n/+nF4WLAQcH5ceZ+csy87X5+1Lz9o8S8JvclvUy7cPlV+kYSmoGQknSX/TOLVblkBk3CrJNSUrd/2QWnykxBHCpKQpszkdahYMSxtxXh7EPL676U0nfqkDzJ38g7N7MTByIv6z90NRmBCmlCz59KxCjjliQSbSofUpESGWIY8dvtmgSnn6ZKu/dkIvDEbn1PH3Pw4bviImq+jyN0/qlfHDb2sW+JqMpPY+8fTgCk5+TxZ+XIvkyowdwZbwscjVY46TupsnI1M3daTKXQ22hIE0kzoqd7X0n5Kbv1y5lVwffvybM3wtLpFSJOpi6seqvrWv12C0ya2tB7xxzPWDIpkilH8+xNZnzkURNX1y7a1lbrk4eqIhTj55ypsmucNiPc192m6LHYUAUYZPdqL8+XhPXHiJcsQfwCPbM/q4RPpB55vylra1YVaXufill80vC8CoXlhuK32qDPyGpWOzLYTOX9XLfw3fbG11dSBGXmS0Q2qxLG4rin++VY/a7lqbOjPavPyuFmz8hEvPgF0oQ1HWqeK2anXU8AucTaLdURWxTq4R1UwfQh9r7LZ4kb1OL8uKXL4vkf54f856mxZEvLcduy2UpDI1Hathz8iiXN/kpw1CWeiO31ba6Il6xy+2cYy4TLimPdNVN9vRV9UHdTt1ZaIZRPQxMWA5nyJ0S4LEsIXO2zFpW2xhUZllWoJAjNuao7ZSojr97tN7MXrF0ZDf4PzAbHcy5XeJbi42exJ4P36DrVsbrtj5ZtMxALZMAFsmgC0TwJYJYMsEsGUC2DIBbJkAtkwAWyaALRPAlglgywSwZQLYMgFsmQC2TABbJoAtE8CWCWDLBLBlgtOzlQyyNevZsul9Itj6GZNbXyzpZpCtvd/N7caeEpsuMjbi850BthBDbasRZ+ztIFC+0t2zuSLKhtgq47Yvm9G3sUELcpa/F9n4Y4itPRPtKbmu7di7POAxEaTbXbz0t7Id5QBbGDVseUQoCC3oiotLaqryspCTg2ILoXWVUhKaNbV/b1Q+PcyWTagv7P6HLdw2hx59C/AHhsWWdmVBC/B7ICWaALZMAFsmhIFZ5mO3Lf6kZ3Jj2xh2JzsygtAotjwLiu8/RHyFftClgS+dPcTdp3xCtJiEia+kcK+zwJ6gB1mr3KaHnSeEjSQt1bc+P7OVbXkc2lYe7SM/+EW7kBS0KLulMdXcFi1pUYTesO8/x0hyu9stdW376rZoMvovEc1YPNvKerbGXgFvCNgyAWyZALZMAFsmgC0TwJYJYMsEsGVC31alfjO/ez0Etu6Z3VrOTHQXwyvd8YPowtny4UOeSLteR9SISOJFdjdMGbuCrTvitgN5R9WPisqJNt4i17oXrd+D0VJVjFa3jlfQRC0q66/3sRceOgFLy3A+6S87sHRbz02Hdhs9qqZ5HcimN7ee7hC6BrqxFgAAAAAAAHCHHroVSkomDBnqfJ0kycyqsXswWq/X10EfluyJeKuf21WAJ3Nx0XVg3k474Z4j8mfO6lWZi6YLq4hGgypbrLOlag6y4nn8p1/ALltY2pLdm9PFgP3tstXFFkK5bit6yum8PkiD7g7p9pOVJ9etK1KQy/oWhZ0tjI6XvCjKQM1E3sYhBftomxPiST4n27P+YDEJExSHRfE8Yvir09ly1HhYIfEOB5d6Ihu7EH3HW1FZG78gZZzFea9VaWsLo31KvOAQ0aWcY2W+DYIlDVWBbp/mXhZsadMeLgmJs9t9vK+tgIqCRMk2YuZUiDcT6/byKlnzPi1UY7b69t7nlhJDNWJgTGUv/imVTU9n9KLec6g66EmhmtGvqP+mjZ47WzN6RuhAE1Wwz+Wr1VJ44XNFLJNXrrZMaPdlRmeroTrgKqZiC6lXZsUnn9jJo3KY0s1tqY3frqjW2VqJbL5qw2YiNWRUDhDvKSeFp1fqIV5Rz1ZrEp2lNiZjB6uD3l5vRKn+p9610XNnK6Mr7iG/RAInpHJhLl8+5zIk1oVbOWKdQ7ZtWHS28qo9IN0hbYsbnUovxI8cedRabb6i7zqWVGdLJEJEUtfduuJPXX0sLi+geyR/SjlYD1+/a/fubOl3QFwQPYmUqGMLETFH6/aoKiXO3twWvy5HpCX22JBhzmPDVU28F/T5EbqzRW6x5fVsfRZixBb60B/Eu8eWiALx/x76dw9AWOQ0U5mpY5nGHrPlzta2zfASmVO1tmZyX//hK6F3t6Xu7qJE/3Ad6/nqlOshxbbPX4Z1tgKqB9PiS3BrC6HlfMN3PNH7Wo73tUVUKjnRWEZVrmNkqUapw8h3Uk9Pzqh+QV11Xx9elC2+Z666cjnz4qmYIzLVHufyYf2T6X5eJqrJyWrQU9a/B/MM59A0Szb3VPwkOYmPaOEW7Uc9Bzr/bLeOacnLZA3zRbI6Bs0hqOYN5yhUknqBP0+0kk83zGfe8RgwpkrrM5I3GGflXBXKZm9qi+cpBaXUP03lp/X873ghlJJq33VNEF5ueU4S8q2ZSrvXnBbFvCj4kqsMoEqs89ReLFrXlBZVl19Fc3FUXaO9Iu9pC99N6ZEOp9e7NejY33i/edzzNj9V/RrofGtz3agValO5EtvYPcRPYW/6HPhvAFsmELD1y2BUQcu3XweycQPg1bcJYAsAAAAAAAAAAAAAAAAA/gf/ARFZaGg86o2dAAAAAElFTkSuQmCC",
+      "like": [
+        "ilenbaev@gmail.com"
+      ],
+      "rating": 3,
+      "id": 4
+    },
+    {
+      "language": "IOS разработчик",
+      "time": "6 месяцев",
+      "type": "Идет набор",
+      "price": 800,
+      "month": "30 апреля",
+      "place": "5",
+      "description": "iOS-разработчик создает приложения для устройств Apple. Это не только iPhone, но и iPad, Apple Watch и другие гаджеты, входящие в экосистему. Он не только пишет код и работает над интерфейсом, но и занимается поддержкой приложения, адаптацией его под разные модели устройств, тестированием и исправлением багов.",
+      "img": "data:image/png;base64,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",
+      "like": [
+        "ilenbaev@gmail.com"
+      ],
+      "rating": 3,
+      "id": 5
+    },
+    {
+      "language": "ПО Тестировщик",
+      "time": "2 месяца",
+      "type": "Идет набор",
+      "price": 200,
+      "month": "2 мая",
+      "place": "3",
+      "description": "Освойте IT-профессию, для которой не требуется опыт и техническое образование.\nОсвоить профессию тестировщика легче, чем разработчика. При этом тестирование - отличный старт для карьеры, вы сможете лучше узнать сферу и быстрее в нее погрузиться.Низкий порог входа\nв профессию\nНе требуется технического образования, а освоить профессию можно быстрее, чем профессию программиста",
+      "img": "data:image/jpeg;base64,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",
+      "like": [
+        "ilenbaev@gmail.com"
+      ],
+      "rating": 3,
+      "id": 6
+    },
+    {
+      "language": "Проектный менеджер",
+      "time": "2 месяца",
+      "type": "Скоро",
+      "price": 200,
+      "month": "18 мая",
+      "place": "10",
+      "description": "Возможность работать в IT компаниях\nЕсли вы хотите начать карьеру в IT, но не хотите программировать, и при этом у вас есть опыт в менеджменте, то это отличный старт.\nВостребованность профессии\nТолько в одной Москве открытых вакансий на Проектного Менеджера более 3000, согласно headhunter.ru.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlUjZtVNfDNtCIpGPoII1OmuLAIhDtPfYUlQ&usqp=CAU",
+      "like": [],
+      "rating": 0,
+      "id": 7
+    }
+  ],
+  "person": [
+    {
+      "commit": "Back-end",
+      "user": "ilenbaev@gmail.com",
+      "prodId": "2",
+      "id": 1
+    },
+    {
+      "commit": "JavaScript",
+      "user": "ilenbaev@gmail.com",
+      "prodId": "1",
+      "id": 2
+    },
+    {
+      "commit": "ПО тестировщик",
+      "user": "ilenbaev@gmail.com",
+      "prodId": "6",
+      "id": 8
+    },
+    {
+      "commit": "UX/UI design",
+      "user": "ilenbaev@gmail.com",
+      "prodId": "3",
+      "id": 10
+    },
+    {
+      "commit": "Android",
+      "user": "ilenbaev@gmail.com",
+      "prodId": "4",
+      "id": 11
+    },
+    {
+      "commit": "IOS Apple",
+      "user": "ilenbaev@gmail.com",
+      "prodId": "5",
+      "id": 12
+    },
+    {
+      "commit": "Project",
+      "user": "ilenbaev@gmail.com",
+      "prodId": "7",
+      "id": 13
+    }
+  ]
+}

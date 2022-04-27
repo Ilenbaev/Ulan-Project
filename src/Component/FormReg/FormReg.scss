@@ -1,0 +1,26 @@
+.formRegMain {
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5)),
+    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRbsPC01b1ftZt0f1onGeUheFwuJ6zqHV13exMgWzYAV3TrwgoYCbwTowavHYJu7sxhNk&usqp=CAU)
+      no-repeat;
+  background-size: cover;
+  color: white;
+}
+.formSpan {
+  font-size: 25px;
+  color: aqua;
+}
+.btnForm {
+  color: yellow;
+  background-color: red;
+}
+
+@media all and(max-width:321px) {
+  .regForm {
+    // text-align: left;
+    // display: flex;
+    // flex-wrap: wrap;
+  }
+  .formSpan {
+    margin: 0;
+  }
+}

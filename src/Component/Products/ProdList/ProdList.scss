@@ -1,0 +1,65 @@
+.productList {
+  background: url(../../img/background-3246124_1.webp) no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  @media all and(max-width:426px) {
+    .productList {
+    }
+
+    .leftProduct {
+      text-align: center;
+      color: white;
+      font-size: 20px;
+      padding-bottom: 20px;
+    }
+  }
+}
+
+.leftProduct {
+  color: white;
+  font-size: 35px;
+}
+.stage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  background: url(../../img/thought-balloon_1f4a.webp);
+  background-size: cover;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  height: 180px;
+  width: 180px;
+  margin: 0 auto 0 auto;
+  transform-origin: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bounce-1 {
+  animation-name: bounce-1;
+  animation-timing-function: linear;
+}
+@keyframes bounce-1 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.prodicon {
+  font-size: 65px;
+  color: darkred;
+}

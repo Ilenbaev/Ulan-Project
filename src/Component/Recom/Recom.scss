@@ -1,0 +1,59 @@
+.recom {
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5)),
+    url(https://i.pinimg.com/736x/33/75/80/33758095c1225e6b9e3db28aad503458--smoke-curtains.jpg)
+      no-repeat;
+  background-size: cover;
+  padding: 30px 0;
+  text-align: center;
+}
+.cardCours {
+  padding-bottom: 30px;
+  text-align: left;
+}
+.recomInfo {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.rightRec {
+  max-width: 600px;
+  min-width: 300px;
+  text-align: left;
+  h2 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 24px;
+  }
+}
+
+@media all and(max-width: 426px) {
+  .recom {
+    h1 {
+      padding-bottom: 20px;
+    }
+  }
+  .rightRec {
+    text-align: center;
+    p {
+      font-size: 20px;
+      padding: 0 10px;
+    }
+  }
+}
+
+@media all and(max-width: 321px) {
+  .recomInfo {
+    margin-left: 15px;
+  }
+  .rightRec {
+    text-align: center;
+    h2 {
+      font-size: 25px;
+    }
+    p {
+      font-size: 14px;
+      padding: 0 10px;
+    }
+  }
+}

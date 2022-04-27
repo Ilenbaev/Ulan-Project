@@ -1,0 +1,133 @@
+.cardCours {
+  box-shadow: 12px 12px 14px 4px rgba(0, 0, 0, 0.38);
+  border-radius: 15px;
+  padding: 0 25px;
+  border: 1px solid grey;
+  max-width: 297px;
+  margin: 0 40px 40px 0;
+  position: relative;
+
+  &:hover {
+    background-color: #4169e1;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+
+  h3 {
+    font-weight: 400;
+  }
+
+  @media all and(max-width: 769px) {
+    h2 {
+      font-size: 30px;
+    }
+    .bubble {
+      left: 205px;
+    }
+  }
+}
+
+@media all and(max-width: 426px) {
+  .cardCours {
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+}
+@media all and(max-width: 376px) {
+  .cardCours {
+    margin-bottom: 50px;
+    .bubble {
+      margin-left: -35px;
+    }
+  }
+}
+
+@media all and(max-width: 321px) {
+  .cardCours {
+    margin-left: 10px;
+    margin-bottom: 50px;
+  }
+}
+
+.cardProf {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+
+  span {
+    margin-left: 120px;
+  }
+
+  @media all and(max-width: 769px) {
+    span {
+      margin-left: 120px;
+    }
+    .bubble {
+      //   top: 100px;
+      left: 175px;
+      width: 130px;
+      height: 130px;
+    }
+  }
+}
+
+.bubble {
+  background: url(../../img/left-speech-bubble_1.webp);
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  //   padding-top: 20px;
+  position: absolute;
+  top: -30px;
+  left: 235px;
+  font-size: 29px;
+  text-align: center;
+}
+
+@media all and(max-width: 1025px) {
+  .cardCours {
+    max-width: 210px;
+    margin-left: 20px;
+    h2 {
+      font-size: 35px;
+    }
+    span {
+      margin-left: 20px;
+    }
+    .bubble {
+      //   top: 100px;
+      left: 175px;
+      width: 130px;
+      height: 130px;
+    }
+  }
+}
+
+@media all and(max-width: 769px) {
+  .cardCours {
+    max-width: 240px;
+    margin-left: 35px;
+    .bubble {
+      left: 210px;
+    }
+  }
+}
+@media all and(max-width:321px) {
+  .cardCours {
+    margin-left: 10px;
+  }
+  span {
+    margin-left: 80px;
+  }
+  .bubble {
+    left: 180px;
+    width: 120px;
+    height: 120px;
+  }
+  p {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,251 @@
+.mainInfo {
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5)),
+    url("https://funart.pro/uploads/posts/2021-12/1640356115_3-funart-pro-p-foni-dlya-stranits-na-saiti-3.jpg")
+      no-repeat;
+  background-size: cover;
+  margin-top: -70px;
+}
+
+.info {
+  margin-top: 70px;
+  display: flex;
+
+  align-items: center;
+  color: #9acd32;
+
+  h1 {
+    font-size: 60px;
+  }
+  p {
+    font-family: Cantarell;
+    font-size: 23px;
+    color: white;
+  }
+
+  .leftInfo {
+    max-width: 500px;
+    min-width: 300px;
+  }
+
+  img {
+    border-radius: 20px;
+  }
+
+  @media all and(max-width: 376px) {
+    h1 {
+      font-size: 40px;
+    }
+  }
+}
+
+.infoJob {
+  display: flex;
+
+  align-items: center;
+  color: black;
+
+  h2 {
+    font-size: 60px;
+    color: #9acd32;
+  }
+
+  p {
+    font-family: Cantarell;
+    font-size: 23px;
+    color: white;
+  }
+}
+
+@media all and(max-width: 769px) {
+  .info {
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid aqua;
+    padding-bottom: 30px;
+  }
+  img {
+    width: 50%;
+  }
+  .infoJob {
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    h2 {
+      margin: 0;
+    }
+  }
+}
+
+@media all and(max-width:426px) {
+  .infoJob h2 {
+    font-size: 40px;
+    margin: 0;
+  }
+}
+
+@media all and(max-width:321px) {
+  .infoJob h2 {
+    font-size: 30px;
+  }
+}
+.mainForm {
+  background-color: PaleTurquoise;
+}
+.infoForm {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.leftForm {
+  text-align: center;
+  max-width: 800px;
+  min-width: 500px;
+  background-color: white;
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 50px;
+    color: #9acd32;
+    margin: 0;
+  }
+}
+
+.rightForm {
+  text-align: center;
+  max-width: 800px;
+  min-width: 600px;
+  background-color: MidnightBlue;
+}
+
+.rightFirst {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+.rightTwo {
+  color: white;
+  h2 {
+    font-size: 30px;
+  }
+}
+
+.rightThree {
+  text-align: left;
+  color: white;
+  padding-left: 20px;
+  font-size: 35px;
+  padding-bottom: 30px;
+}
+.formInput {
+  width: 90%;
+  height: 30px;
+}
+
+.rightFour {
+  text-align: left;
+  padding: 0 0 30px 20px;
+
+  .btn {
+    width: 35%;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: Aqua;
+    cursor: pointer;
+  }
+}
+.commitBox1 {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  width: 600px;
+}
+
+@media all and(max-width: 1025px) {
+  .leftForm {
+    min-width: 400px;
+  }
+  .rightForm {
+    min-width: 500px;
+    h2 {
+      font-size: 25px;
+    }
+    .btn {
+      height: 46px;
+    }
+  }
+}
+
+@media all and(max-width: 769px) {
+  .leftForm {
+    min-width: 300px;
+  }
+  .rightForm {
+    max-width: 400px;
+    min-width: 250px;
+  }
+}
+
+@media all and(max-width:426px) {
+  .infoForm {
+    flex-wrap: wrap;
+    .leftForm {
+      min-width: 380px;
+      margin-bottom: 30px;
+    }
+    .rightForm {
+      max-width: 380px;
+    }
+    .rightFirst {
+      flex-direction: column;
+    }
+  }
+}
+
+@media all and(max-width:376px) {
+  .leftForm {
+    min-width: 340px !important;
+    h1 {
+      font-size: 35px;
+    }
+  }
+}
+@media all and(max-width:321px) {
+  .leftForm {
+    min-width: 290px !important;
+    h1 {
+      font-size: 35px;
+    }
+    h2 {
+      margin: 0;
+    }
+  }
+  .rightForm {
+    h2 {
+      font-size: 20px;
+    }
+  }
+  .rightThree {
+    font-size: 25px;
+  }
+  .rightFour {
+    .btn {
+      font-size: 14px;
+    }
+  }
+  .commitBox {
+    width: 230px !important;
+    justify-content: flex-start;
+  }
+  .commitBox1 {
+    width: 220px;
+    flex-direction: column;
+    span {
+      margin: 0;
+    }
+  }
+}

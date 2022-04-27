@@ -1,0 +1,31 @@
+@media all and(max-width: 769px) {
+  .btnFilter {
+    margin-bottom: 40px !important;
+  }
+}
+
+@media all and(max-width: 426px) {
+  .filter {
+    padding-top: 350px !important;
+  }
+  .btnFilter {
+    margin-bottom: 40px !important;
+  }
+}
+
+@media all and(max-width:376px) {
+  .slider {
+    max-width: 300px !important;
+    margin: 0 !important;
+  }
+  .btnFilter {
+    margin-bottom: 40px !important;
+  }
+}
+
+@media all and(max-width:321px) {
+  .slider {
+    max-width: 100px !important;
+    margin: 0 !important;
+  }
+}
